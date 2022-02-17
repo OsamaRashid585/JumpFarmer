@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-   [SerializeField] private float _jumpPower = 12f;
-   [SerializeField] private float _physicsModifier = 2.5f;
+    private float _jumpPower = 12f;
+    private float _physicsModifier = 2.5f;
     private bool _isGrounded;
     public bool _gameOver = false;
 
